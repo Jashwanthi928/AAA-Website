@@ -1,0 +1,11 @@
+.footer {
+    position: fixed;
+    margin-top: -3.5%;
+    margin-left: 0%;
+    width: 30rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    /* background: rgba(39, 41, 39, 0.6);  */
+    color: white;
+    text-align: center;
+  }
+    
