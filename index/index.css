@@ -1,0 +1,50 @@
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/* Laptop with HiDPI */
+.carousel-item {
+  height: 91.5vh;
+}
+
+.carousel-item img {
+  height: 91.5vh;
+}
+
+/* 4k Resolution */
+@media only screen and (min-width: 4000px) {
+  .carousel-item {
+    height: 96.5vh;
+  }
+
+  .carousel-item img {
+    height: 96.5vh;
+  }
+}
+
+/* 2K Resolution */
+@media only screen and (min-width: 1900px) and (max-width: 4000px) {
+  .carousel-item {
+    height: 93vh;
+  }
+
+  .carousel-item img {
+    height: 93vh;
+  }
+}
+
+/* Laptop with MDPI */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .carousel-item {
+    height: 90.5vh;
+  }
+
+  .carousel-item img {
+    height: 90.5vh;
+  }
+}

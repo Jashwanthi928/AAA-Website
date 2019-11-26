@@ -1,0 +1,34 @@
+head,
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.active-nav {
+  color: #ff0202 !important;
+}
+
+.nav-item {
+  font-family: Arial, Helvetica, sans-serif !important;
+  letter-spacing: 0.05em;
+  margin-right: -1.5em;
+  margin-top: 1em;
+  margin-left: 3em;
+}
+
+.navbar-brand__logo {
+  max-width: 88.9px;
+  max-height: 50px;
+  margin-left: -1em;
+}
+
+.nav--colour-grey--shadow-true {
+  background-color: #f5f5f5 !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active-nav {
+  color: #ff0202 !important;
+}

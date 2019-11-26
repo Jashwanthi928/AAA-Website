@@ -1,0 +1,12 @@
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.teamCard {
+  width: 18em;
+  margin-top: 5em;
+  border: none;
+}

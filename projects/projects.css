@@ -1,0 +1,22 @@
+.projectCard {
+  border: none;
+  margin: 1em;
+}
+
+.evenProject {
+  position: absolute;
+  top: 21.5em !important;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.oddProject {
+  position: absolute;
+  top: 13em !important;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.projectsRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
